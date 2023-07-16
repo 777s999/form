@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio button</title>
+</head>
+<body>
+    <!-- value attribute is a required type when our input type is radio.
+    name attribute should be equal,
+    because browser will consider elemets two differernt
+    thing if we give name different value.
+    as in radio button browser can select only one option.
+    we can add checked attribute also here to make it default -->
+    <form>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <label for="other">Other</label>
+        <input type="radio" id="other" value="other" name="gender" checked >
+        <br>
+        <button type="submit">SUBMIT</button>
+    </form>
+    
+</body>
+</html>
